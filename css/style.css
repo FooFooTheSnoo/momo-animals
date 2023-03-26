@@ -21,11 +21,27 @@ nav {
 }
 
 .section1 {
-display: flex;
-justify-content: end;
+display: inline;
+justify-content: right;
 }
 
 .section1 img{
+ display: block;
   max-height: 550px;
   max-width: 100%;
+  padding: 10px;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2 img {
+  max-height: 400px;
+  max-width: 100%;
+}
+
+.section3 {
+
 }
